@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		BD447565286A01590016CF73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD447564286A01590016CF73 /* AppDelegate.swift */; };
 		BD447567286A01590016CF73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD447566286A01590016CF73 /* SceneDelegate.swift */; };
-		BD447569286A01590016CF73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD447568286A01590016CF73 /* ViewController.swift */; };
 		BD44756C286A01590016CF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD44756A286A01590016CF73 /* Main.storyboard */; };
 		BD44756F286A01590016CF73 /* todo_list.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD44756D286A01590016CF73 /* todo_list.xcdatamodeld */; };
 		BD447571286A015A0016CF73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD447570286A015A0016CF73 /* Assets.xcassets */; };
 		BD447574286A015A0016CF73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD447572286A015A0016CF73 /* LaunchScreen.storyboard */; };
+		BD44757C286A04780016CF73 /* todo table view controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD44757B286A04780016CF73 /* todo table view controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD447561286A01590016CF73 /* todo list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "todo list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD447564286A01590016CF73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD447566286A01590016CF73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BD447568286A01590016CF73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD44756B286A01590016CF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD44756E286A01590016CF73 /* todo_list.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = todo_list.xcdatamodel; sourceTree = "<group>"; };
 		BD447570286A015A0016CF73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD447573286A015A0016CF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD447575286A015A0016CF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD44757B286A04780016CF73 /* todo table view controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "todo table view controller.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,7 @@
 		BD447558286A01590016CF73 = {
 			isa = PBXGroup;
 			children = (
+				BD44757B286A04780016CF73 /* todo table view controller.swift */,
 				BD447563286A01590016CF73 /* todo list */,
 				BD447562286A01590016CF73 /* Products */,
 			);
@@ -60,7 +61,6 @@
 			children = (
 				BD447564286A01590016CF73 /* AppDelegate.swift */,
 				BD447566286A01590016CF73 /* SceneDelegate.swift */,
-				BD447568286A01590016CF73 /* ViewController.swift */,
 				BD44756A286A01590016CF73 /* Main.storyboard */,
 				BD447570286A015A0016CF73 /* Assets.xcassets */,
 				BD447572286A015A0016CF73 /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD447569286A01590016CF73 /* ViewController.swift in Sources */,
+				BD44757C286A04780016CF73 /* todo table view controller.swift in Sources */,
 				BD447565286A01590016CF73 /* AppDelegate.swift in Sources */,
 				BD447567286A01590016CF73 /* SceneDelegate.swift in Sources */,
 				BD44756F286A01590016CF73 /* todo_list.xcdatamodeld in Sources */,
